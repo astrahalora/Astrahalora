@@ -1,0 +1,36 @@
+#quote {
+    padding-top: 5em;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin: 2em;
+}
+
+.descriptive {
+    margin: 1em;
+    background-color: #c9a672;
+    border-radius: 1em;
+
+    img {
+        width: 100%;
+        border-radius: 1em 1em 0 0;
+    }
+
+    h3 {
+        margin: 0.5em 0 0 1em;
+    }
+
+    p,ul {
+        padding: 1em;
+        list-style: none;
+        font-size: 120%;
+    }
+}
+
+h2 {
+    margin-left: 5em;
+}

@@ -5,11 +5,166 @@
   padding: 0;
 }
 
+html {
+  background-color: #472b14;
+  background-image: url(/www-public/assets/images/waters2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 html, body {
   height: 100%;
   width: 100%;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Galdeano', sans-serif;
   font-size: 100%;
-  background-color: #0f0301;
+}
+
+#logo {
+  width: 12em;
+  padding-left: 0.5em;
+}
+
+nav {
+  padding: 0.2em 0.5em;
+  background-color: #c9a672;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav ul {
+  float: right;
+  padding-right: 1em;
+}
+
+nav ul li {
+  display: inline-block;
+  padding-top: 1.3em;
+}
+
+nav ul li a {
+  text-decoration: none;
+  list-style: none;
+  padding: 0 0.5em;
+  font-size: 120%;
+  font-weight: bold;
+  color: black;
+}
+
+nav ul li a:hover {
+  color: #472b14;
+}
+
+.mainPage {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  padding: 10em 2em 0 2em;
+  line-height: 3em;
+}
+
+.mainPage div:first-child {
+  padding: 8em 1em 0 0;
+  font-size: 130%;
+}
+
+.mainPage img {
+  width: 25em;
+  padding-top: 7em;
+}
+
+.mainPage a {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  padding: 0.6em 1em;
+  border-radius: 0.5em;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+#paint {
+  margin-bottom: 1em;
+}
+
+#myWork {
+  margin: 0 2em 0 3em;
+  background-color: #c9a672;
+}
+
+#myWork:hover {
+  background-color: #ae503a;
+}
+
+#myStory {
+  background-color: rgba(201, 166, 114, 0.4);
+}
+
+#myStory:hover {
+  background-color: #c9a672;
+}
+
+#island {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 17em;
+}
+
+footer {
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  padding-bottom: 2em;
+  width: 100%;
+}
+
+footer a {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  font-size: 110%;
+}
+
+#quote {
+  padding-top: 5em;
+  text-align: center;
+}
+
+.container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  margin: 2em;
+}
+
+.descriptive {
+  margin: 1em;
+  background-color: #c9a672;
+  border-radius: 1em;
+}
+
+.descriptive img {
+  width: 100%;
+  border-radius: 1em 1em 0 0;
+}
+
+.descriptive h3 {
+  margin: 0.5em 0 0 1em;
+}
+
+.descriptive p, .descriptive ul {
+  padding: 1em;
+  list-style: none;
+  font-size: 120%;
+}
+
+h2 {
+  margin-left: 5em;
 }
 /*# sourceMappingURL=style.css.map */

@@ -133,8 +133,7 @@ footer a {
 .descriptive {
   margin: 1em;
   background-color: rgb(201, 166, 114);
-  border: 2px solid rgb(133, 91, 56);
-  border-radius: 1em;
+  border-radius: 1em 1em 0 0;
   text-align: center;
 }
 .descriptive img {
@@ -166,4 +165,84 @@ h2 {
 .social_media img {
   width: 6em;
   margin-right: 0.5em;
+}
+
+section {
+  padding: 4em;
+}
+section h2 {
+  margin: 2.5em 0 2em 0;
+  text-align: center;
+}
+section p {
+  font-size: 1.3em;
+  margin: 0 0 2em 0;
+}
+section .gallery {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+}
+section .gallery figure {
+  margin: 3px;
+  overflow: hidden;
+  position: relative;
+  background-color: black;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+section .gallery figure img {
+  width: calc(100% + 60px);
+  opacity: 0.7;
+  -webkit-transform: translate3d(0, -20px, 0) scale(1.12);
+          transform: translate3d(0, -20px, 0) scale(1.12);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+section .gallery figure figcaption {
+  position: absolute;
+  padding: 1em 2em;
+  top: 0;
+  color: black;
+  text-align: center;
+}
+section .gallery figure figcaption h3 {
+  font-weight: bold;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  background-color: rgba(255, 215, 93, 0.5);
+  border-radius: 10px;
+  display: inline-block;
+  padding: 0.5em 0.7em;
+}
+section .gallery figure figcaption .deco p {
+  margin: 0.5em 0;
+}
+section .gallery figure figcaption .deco a {
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 2px solid rgb(54, 39, 24);
+  background-color: rgba(138, 206, 191, 0.3);
+  padding: 0.5em;
+  font-weight: bold;
+  color: black;
+  border-radius: 10px;
+}
+section .gallery figure figcaption .deco a:last-child {
+  background-color: rgba(134, 81, 37, 0.3);
+}
+section .gallery figure .deco {
+  opacity: 0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+section .gallery figure:hover {
+  background: rgb(255, 215, 93);
+  border-radius: 20px 20px 0 0;
+}
+section .gallery figure:first-child {
+  margin-left: 0;
+}
+section .gallery figure:hover .deco {
+  opacity: 1;
 }/*# sourceMappingURL=style.css.map */

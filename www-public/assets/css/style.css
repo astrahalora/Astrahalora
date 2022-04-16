@@ -178,11 +178,11 @@ section p {
   font-size: 1.3em;
   margin: 0 0 2em 0;
 }
-section .gallery {
+section .projects {
   display: grid;
   grid-template-columns: repeat(4, auto);
 }
-section .gallery figure {
+section .projects figure {
   margin: 3px;
   overflow: hidden;
   position: relative;
@@ -190,7 +190,7 @@ section .gallery figure {
   -webkit-transition: background-color 0.5s;
   transition: background-color 0.5s;
 }
-section .gallery figure img {
+section .projects figure img {
   width: calc(100% + 60px);
   opacity: 0.7;
   -webkit-transform: translate3d(0, -20px, 0) scale(1.12);
@@ -198,14 +198,14 @@ section .gallery figure img {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
-section .gallery figure figcaption {
+section .projects figure figcaption {
   position: absolute;
   padding: 1em 2em;
   top: 0;
   color: black;
   text-align: center;
 }
-section .gallery figure figcaption h3 {
+section .projects figure figcaption h3 {
   font-weight: bold;
   font-size: 1.2em;
   text-transform: uppercase;
@@ -214,10 +214,10 @@ section .gallery figure figcaption h3 {
   display: inline-block;
   padding: 0.5em 0.7em;
 }
-section .gallery figure figcaption .deco p {
+section .projects figure figcaption .deco p {
   margin: 0.5em 0;
 }
-section .gallery figure figcaption .deco a {
+section .projects figure figcaption .deco a {
   display: inline-block;
   text-transform: uppercase;
   text-decoration: none;
@@ -228,21 +228,21 @@ section .gallery figure figcaption .deco a {
   color: black;
   border-radius: 10px;
 }
-section .gallery figure figcaption .deco a:last-child {
+section .projects figure figcaption .deco a:last-child {
   background-color: rgba(134, 81, 37, 0.3);
 }
-section .gallery figure .deco {
+section .projects figure .deco {
   opacity: 0;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
-section .gallery figure:hover {
+section .projects figure:hover {
   background: rgb(255, 215, 93);
   border-radius: 20px 20px 0 0;
 }
-section .gallery figure:first-child {
+section .projects figure:first-child {
   margin-left: 0;
 }
-section .gallery figure:hover .deco {
+section .projects figure:hover .deco {
   opacity: 1;
 }/*# sourceMappingURL=style.css.map */

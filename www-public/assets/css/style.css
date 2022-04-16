@@ -6,7 +6,7 @@
 }
 
 html {
-  background-color: #472b14;
+  background-color: rgb(71, 43, 20);
   background-image: url(/www-public/assets/images/waters.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -15,7 +15,7 @@ html {
 html, body {
   height: 100%;
   width: 100%;
-  font-family: 'Galdeano', sans-serif;
+  font-family: "Galdeano", sans-serif;
   font-size: 100%;
 }
 
@@ -26,22 +26,19 @@ html, body {
 
 nav {
   padding: 0.2em 0.5em;
-  background-color: #c9a672;
+  background-color: rgb(201, 166, 114);
   position: fixed;
   top: 0;
   width: 100%;
 }
-
 nav ul {
   float: right;
   padding-right: 1em;
 }
-
 nav ul li {
   display: inline-block;
   padding-top: 1.3em;
 }
-
 nav ul li a {
   text-decoration: none;
   list-style: none;
@@ -50,30 +47,24 @@ nav ul li a {
   font-weight: bold;
   color: black;
 }
-
 nav ul li a:hover {
-  color: #472b14;
+  color: rgb(71, 43, 20);
 }
 
 .mainPage {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 50% 50%;
-      grid-template-columns: 50% 50%;
+  grid-template-columns: 50% 50%;
   padding: 10em 2em 0 2em;
   line-height: 3em;
 }
-
 .mainPage div:first-child {
   padding: 8em 1em 0 0;
   font-size: 130%;
 }
-
 .mainPage img {
   width: 25em;
   padding-top: 7em;
 }
-
 .mainPage a {
   text-decoration: none;
   list-style: none;
@@ -91,11 +82,11 @@ nav ul li a:hover {
 
 #myWork {
   margin: 0 2em 0 3em;
-  background-color: #c9a672;
+  background-color: rgb(201, 166, 114);
 }
 
 #myWork:hover {
-  background-color: #ae503a;
+  background-color: rgb(174, 80, 58);
 }
 
 #myStory {
@@ -103,7 +94,7 @@ nav ul li a:hover {
 }
 
 #myStory:hover {
-  background-color: #c9a672;
+  background-color: rgb(201, 166, 114);
 }
 
 #island {
@@ -120,7 +111,6 @@ footer {
   padding-bottom: 2em;
   width: 100%;
 }
-
 footer a {
   text-decoration: none;
   list-style: none;
@@ -134,37 +124,31 @@ footer a {
 }
 
 .container {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
-  -ms-grid-rows: 1fr;
-      grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
   margin: 2em;
 }
 
 .descriptive {
   margin: 1em;
-  background-color: #c9a672;
+  background-color: rgb(201, 166, 114);
+  border: 2px solid rgb(133, 91, 56);
   border-radius: 1em;
   text-align: center;
 }
-
 .descriptive img {
   width: 100%;
   border-radius: 1em 1em 0 0;
 }
-
 .descriptive #face {
   width: 7em;
   margin: 1em 0 0 0;
   border-radius: 5em;
 }
-
 .descriptive h3 {
   margin: 0.5em 0 0 1em;
 }
-
 .descriptive p,
 .descriptive ul {
   padding: 1em;
@@ -179,9 +163,7 @@ h2 {
 .social_media {
   margin: 1em 0 0 3em;
 }
-
 .social_media img {
   width: 6em;
   margin-right: 0.5em;
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

@@ -1,16 +1,17 @@
 .gallery {
-    padding: 2em;
-    margin: 5em 0;
+    padding: 5em 2em;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
 
     img {
-        transition: 0.5s;
+        transition: 1s;
         padding: 1em;
-        width: 20%;
+        width: 100%;
     }
 
     img:hover {
         filter: sepia(100%);
-        // filter: grayscale(50%);
         transform: scale(1.1);
+        border-radius: 2.5em 2.5em 0 0;
     }
 }

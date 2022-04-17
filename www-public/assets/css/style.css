@@ -168,7 +168,7 @@ h2 {
 }
 
 section {
-  padding: 4em;
+  padding: 4em 2em 2em 2em;
 }
 section h2 {
   margin: 2.5em 0 2em 0;
@@ -245,4 +245,21 @@ section .projects figure:first-child {
 }
 section .projects figure:hover .deco {
   opacity: 1;
+}
+
+.gallery {
+  padding: 2em;
+  margin: 5em 0;
+}
+.gallery img {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  padding: 1em;
+  width: 20%;
+}
+.gallery img:hover {
+  -webkit-filter: sepia(100%);
+          filter: sepia(100%);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,16 @@
+.gallery {
+    padding: 2em;
+    margin: 5em 0;
+
+    img {
+        transition: 0.5s;
+        padding: 1em;
+        width: 20%;
+    }
+
+    img:hover {
+        filter: sepia(100%);
+        // filter: grayscale(50%);
+        transform: scale(1.1);
+    }
+}

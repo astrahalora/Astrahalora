@@ -30,6 +30,7 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 3;
 }
 nav ul {
   float: right;
@@ -104,18 +105,21 @@ nav ul li a:hover {
   width: 17em;
 }
 
-footer {
-  text-align: center;
-  position: fixed;
-  bottom: 0;
-  padding-bottom: 2em;
+.footer {
   width: 100%;
+  text-align: center;
+  padding-bottom: 2em;
 }
-footer a {
+.footer a {
   text-decoration: none;
   list-style: none;
   color: black;
   font-size: 1.1em;
+}
+
+.fixed-footer {
+  bottom: 0;
+  position: fixed;
 }
 
 #quote {
@@ -133,7 +137,7 @@ footer a {
 .descriptive {
   margin: 1em;
   background-color: rgb(201, 166, 114);
-  border-radius: 1em 1em 0 0;
+  border-radius: 1em;
   text-align: center;
 }
 .descriptive img {
@@ -179,8 +183,14 @@ section p {
   margin: 0 0 2em 0;
 }
 section .projects {
-  display: grid;
-  grid-template-columns: repeat(4, auto);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 section .projects figure {
   margin: 3px;
@@ -191,7 +201,7 @@ section .projects figure {
   transition: background-color 0.5s;
 }
 section .projects figure img {
-  width: calc(100% + 60px);
+  max-width: 350px;
   opacity: 0.7;
   -webkit-transform: translate3d(0, -20px, 0) scale(1.12);
           transform: translate3d(0, -20px, 0) scale(1.12);
@@ -249,25 +259,30 @@ section .projects figure:hover .deco {
 
 .gallery {
   padding: 5em 2em;
-  display: grid;
-  grid-template-columns: repeat(4, auto);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .gallery img {
   -webkit-transition: 1s;
   transition: 1s;
   padding: 1em;
-  width: 100%;
+  max-width: 350px;
 }
 .gallery img:hover {
   -webkit-filter: sepia(100%);
           filter: sepia(100%);
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
-  border-radius: 2.5em 2.5em 0 0;
+  border-radius: 2.5em;
 }
 
 .prices-info {
-  padding: 4em 2em 2em 2em;
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -281,6 +296,7 @@ section .projects figure:hover .deco {
 }
 .prices-info .notice {
   background-color: rgb(201, 166, 114);
+  border-radius: 20px;
 }
 .prices-info .notice p {
   font-size: 1.3em;

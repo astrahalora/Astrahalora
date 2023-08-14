@@ -108,7 +108,7 @@ nav ul li a:hover {
 .footer {
   width: 100%;
   text-align: center;
-  padding-bottom: 2em;
+  padding: 2em;
 }
 .footer a {
   text-decoration: none;

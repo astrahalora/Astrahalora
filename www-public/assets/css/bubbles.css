@@ -13,11 +13,30 @@ html, body {
 .container {
     width: 100%;
     height: 100%;
+    background: rgb(0,40,127);
     background-image: url(/www-public/assets/images/aquarium.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
     overflow: hidden;
+}
+
+#resurface {
+    border: none;
+    position: absolute;
+    top: 2em;
+    left: 2em;
+    background-color: rgb(142, 214, 216);
+    padding: 1em 0;
+    border-radius: 10px;
+}
+
+#resurface a {
+    text-decoration: none;
+    padding: 1em;
+    font-size: 110%;
+    font-weight: bold;
+    color: black;
 }
 
 .bubble {
@@ -102,6 +121,7 @@ html, body {
     animation-delay: 2s;
     width: 40px;
     height: 40px;
+    z-index: 5;
 }
 
 .bubble:nth-child(3) {
@@ -118,6 +138,7 @@ html, body {
     animation-delay: 0.5s;
     width: 40px;
     height: 40px;
+    z-index: 5;
 }
 
 .bubble:nth-child(6) {
@@ -138,6 +159,7 @@ html, body {
     animation-delay: 2.4s;
     width: 40px;
     height: 40px;
+    z-index: 5;
 }
 
 .bubble:nth-child(10) {
@@ -154,10 +176,12 @@ html, body {
     animation-delay: 1.2s;
     width: 40px;
     height: 40px;
+    z-index: 5;
 }
 
 .bubble:nth-child(13) {
     animation-delay: 20s;
+    z-index: 5;
 }
 
 .bubble:nth-child(14) {

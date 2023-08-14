@@ -7,7 +7,7 @@
 html, body {
     height: 100%;
     width: 100%;
-    font-family: sans-serif;
+    font-family: 'Galdeano', sans-serif;
 }
 
 .container {
@@ -19,6 +19,16 @@ html, body {
     background-position: center;
     position: relative;
     overflow: hidden;
+    text-align: center;
+}
+
+#fish-click {
+    color: rgb(142, 214, 216);
+    position: absolute;
+    top: 2.2em;
+    right: 1.5em;
+    font-size: 110%;
+    font-weight: bold;
 }
 
 #resurface {
@@ -29,6 +39,10 @@ html, body {
     background-color: rgb(142, 214, 216);
     padding: 1em 0;
     border-radius: 10px;
+}
+
+#resurface a:hover {
+    color: rgb(71, 43, 20);
 }
 
 #resurface a {

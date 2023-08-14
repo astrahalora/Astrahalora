@@ -120,6 +120,7 @@ nav ul li a:hover {
 .fixed-footer {
   bottom: 0;
   position: fixed;
+  z-index: -4;
 }
 
 #quote {

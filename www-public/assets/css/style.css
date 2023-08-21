@@ -1,8 +1,48 @@
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
+  border: 0;
+  background: transparent;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  font-family: inherit;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+  display: block;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input,
+textarea,
+select,
+button,
+input {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border-radius: 0;
+}
+
+button,
+a {
+  cursor: pointer;
+  color: inherit;
+}
+
+textarea {
+  resize: none;
 }
 
 html {
@@ -67,8 +107,6 @@ nav ul li a:hover {
   padding-top: 7em;
 }
 .mainPage a {
-  text-decoration: none;
-  list-style: none;
   color: black;
   padding: 0.6em 1em;
   border-radius: 0.5em;
@@ -182,6 +220,24 @@ section h2 {
 section p {
   font-size: 1.3em;
   margin: 0 0 2em 0;
+}
+section .sorting {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+section .sorting #highlighted, section .sorting select {
+  background-color: rgb(201, 166, 114);
+  padding: 0.5em;
+  font-size: large;
+  margin-bottom: 0.5em;
+  border-radius: 0.5em;
+}
+section .sorting select {
+  margin-left: 0.5em;
 }
 section .projects {
   display: -webkit-box;

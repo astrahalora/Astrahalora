@@ -26,7 +26,7 @@ const projectList = [
     preview: "somepage",
     code: "someurl",
     date: "2022-06-22",
-    highlighted: false,
+    highlighted: true,
     specs: ["JavaScript", "Angular"],
   },
   {
@@ -42,22 +42,90 @@ const projectList = [
 ];
 
 const projectsElement = document.querySelector(".projects");
+const highlightedBtn = document.querySelector("#highlighted");
+const displayAllBtn = document.querySelector("#all");
+const selectElement = document.querySelector("select");
+let projectsToDisplay = [];
 
-projectList.forEach(project => {
-  projectsElement.insertAdjacentHTML("beforeend",
-    `<figure>
-      <img src="${project.imgUrl}" alt="${project.title}">
-      <figcaption>
-        <h3>${project.title}</h3>
-        <p class="descrip">${project.description}</p>
-        <div class="deco">
-          <p>${project.specs.join(", ")}</p>
-          <a href="${project.preview}">Preview</a>
-          <a href="${project.code}">Code</a>
-        </div>
-      </figcaption>
-    </figure>`
+const populateProjects = (list) => {
+  list.forEach((project) => {
+    projectsElement.insertAdjacentHTML(
+      "beforeend",
+      `<figure>
+        <img src="${project.imgUrl}" alt="${project.title}">
+        <figcaption>
+          <h3>${project.title}</h3>
+          <p class="descrip">${project.description}</p>
+          <div class="deco">
+            <p>${project.specs.join(", ")}</p>
+            <a href="${project.preview}">Preview</a>
+            <a href="${project.code}">Code</a>
+          </div>
+        </figcaption>
+      </figure>`
+    );
+  });
+};
+
+const getSpecList = (list) => {
+  const allSpecs = [];
+  list.forEach((project) => {
+    project.specs.forEach((spec) => {
+      allSpecs.push(spec);
+    });
+  });
+  return new Set([...allSpecs]);
+};
+
+const addAllSpecsToSelect = () => {
+  const allSpecs = getSpecList(projectList);
+  allSpecs.forEach((spec) => {
+    selectElement.insertAdjacentHTML(
+      "beforeend",
+      `
+        <option>${spec}</option>`
+    );
+  });
+};
+
+populateProjects(projectList);
+addAllSpecsToSelect();
+
+const removeAllChildren = () => {
+  while (projectsElement.firstChild) {
+    projectsElement.removeChild(projectsElement.firstChild);
+  }
+};
+
+const filterHighlightedProjects = () => {
+  projectsToDisplay = projectList.filter(
+    (project) => project.highlighted === true
   );
+};
+
+highlightedBtn.addEventListener("click", function () {
+  removeAllChildren();
+  filterHighlightedProjects();
+  populateProjects(projectsToDisplay);
 });
 
+displayAllBtn.addEventListener("click", function () {
+  removeAllChildren();
+  populateProjects(projectList);
+});
 
+const optionCollection = document.getElementsByTagName("option");
+const optionList = Array.from(optionCollection);
+
+selectElement.addEventListener("change", function () {
+  removeAllChildren();
+  const selectedOption = selectElement.value;
+  if (selectedOption === "--Pick Language or Other--") {
+    populateProjects(projectList);
+  } else {
+    projectsToDisplay = projectList.filter((project) =>
+      project.specs.includes(selectedOption)
+    );
+    populateProjects(projectsToDisplay);
+  }
+});

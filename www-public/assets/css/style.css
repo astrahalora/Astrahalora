@@ -56,7 +56,7 @@ html, body {
   height: 100%;
   width: 100%;
   font-family: "Galdeano", sans-serif;
-  font-size: 100%;
+  font-size: 95%;
 }
 
 #logo {
@@ -84,7 +84,7 @@ nav ul li a {
   text-decoration: none;
   list-style: none;
   padding: 0 0.5em;
-  font-size: 120%;
+  font-size: 130%;
   font-weight: bold;
   color: black;
 }
@@ -227,16 +227,36 @@ section .sorting {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
-section .sorting #highlighted, section .sorting select {
+section .sorting #highlighted, section .sorting select, section .sorting #all {
   background-color: rgb(201, 166, 114);
   padding: 0.5em;
   font-size: large;
   margin-bottom: 0.5em;
   border-radius: 0.5em;
 }
-section .sorting select {
+section .sorting #highlighted, section .sorting select {
   margin-left: 0.5em;
+}
+section .sorting #all {
+  width: 96px;
+  margin: 0 auto;
+}
+section .sorting select {
+  text-align: center;
+}
+section .sorting div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 0.5em;
 }
 section .projects {
   display: -webkit-box;
@@ -290,7 +310,7 @@ section .projects figure figcaption h3 {
 section .projects figure figcaption .descrip {
   position: absolute;
   margin-top: 0.5em;
-  margin-left: 1em;
+  margin-left: 2em;
 }
 section .projects figure figcaption .deco {
   opacity: 0;

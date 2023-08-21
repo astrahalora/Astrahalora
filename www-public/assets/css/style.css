@@ -219,7 +219,6 @@ section h2 {
 }
 section p {
   font-size: 1.3em;
-  margin: 0 0 2em 0;
 }
 section .sorting {
   display: -webkit-box;
@@ -252,6 +251,12 @@ section .projects {
 section .projects figure {
   margin: 3px;
   overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   position: relative;
   background-color: black;
   -webkit-transition: background-color 0.5s;
@@ -271,6 +276,7 @@ section .projects figure figcaption {
   top: 0;
   color: black;
   text-align: center;
+  width: 100%;
 }
 section .projects figure figcaption h3 {
   font-weight: bold;
@@ -280,6 +286,16 @@ section .projects figure figcaption h3 {
   border-radius: 10px;
   display: inline-block;
   padding: 0.5em 0.7em;
+}
+section .projects figure figcaption .descrip {
+  position: absolute;
+  margin-top: 0.5em;
+  margin-left: 1em;
+}
+section .projects figure figcaption .deco {
+  opacity: 0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 section .projects figure figcaption .deco p {
   margin: 0.5em 0;
@@ -298,20 +314,18 @@ section .projects figure figcaption .deco a {
 section .projects figure figcaption .deco a:last-child {
   background-color: rgba(134, 81, 37, 0.3);
 }
-section .projects figure .deco {
-  opacity: 0;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
+section .projects figure:first-child {
+  margin-left: 0;
 }
 section .projects figure:hover {
   background: rgb(255, 215, 93);
   border-radius: 20px 20px 0 0;
 }
-section .projects figure:first-child {
-  margin-left: 0;
-}
 section .projects figure:hover .deco {
   opacity: 1;
+}
+section .projects figure:hover .descrip {
+  opacity: 0;
 }
 
 .gallery {

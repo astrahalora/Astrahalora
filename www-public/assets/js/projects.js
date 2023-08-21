@@ -43,7 +43,6 @@ const projectList = [
 
 const projectsElement = document.querySelector(".projects");
 const highlightedBtn = document.querySelector("#highlighted");
-const displayAllBtn = document.querySelector("#all");
 const selectElement = document.querySelector("select");
 let projectsToDisplay = [];
 
@@ -109,18 +108,10 @@ highlightedBtn.addEventListener("click", function () {
   populateProjects(projectsToDisplay);
 });
 
-displayAllBtn.addEventListener("click", function () {
-  removeAllChildren();
-  populateProjects(projectList);
-});
-
-const optionCollection = document.getElementsByTagName("option");
-const optionList = Array.from(optionCollection);
-
 selectElement.addEventListener("change", function () {
   removeAllChildren();
   const selectedOption = selectElement.value;
-  if (selectedOption === "--Pick Language or Other--") {
+  if (selectedOption === "--Any Language/Other--") {
     populateProjects(projectList);
   } else {
     projectsToDisplay = projectList.filter((project) =>

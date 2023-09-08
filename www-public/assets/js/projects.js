@@ -81,8 +81,7 @@ const addAllSpecsToSelect = () => {
   allSpecs.forEach((spec) => {
     selectElement.insertAdjacentHTML(
       "beforeend",
-      `
-        <option>${spec}</option>`
+      `<option>${spec}</option>`
     );
   });
 };

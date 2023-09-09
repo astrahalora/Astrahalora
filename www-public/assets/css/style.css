@@ -65,6 +65,12 @@ html, body {
 }
 
 nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding: 0.2em 0.5em;
   background-color: rgb(201, 166, 114);
   position: fixed;
@@ -73,7 +79,6 @@ nav {
   z-index: 3;
 }
 nav ul {
-  float: right;
   padding-right: 1em;
 }
 nav ul li {
@@ -92,6 +97,45 @@ nav ul li a:hover {
   color: rgb(71, 43, 20);
 }
 
+.hamburger {
+  cursor: pointer;
+  margin: auto 0.5em auto 0;
+  display: none;
+}
+.hamburger .bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  background-color: black;
+}
+
+@media screen and (max-width: 670px) {
+  nav ul {
+    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: absolute;
+    background-color: rgb(201, 166, 114);
+    top: 60px;
+    left: 0;
+    width: 100%;
+    padding-right: 0;
+  }
+  nav ul li {
+    border-top: 2px solid rgb(131, 86, 50);
+    text-align: center;
+    padding: 0.5em;
+  }
+  nav ul li:last-of-type {
+    border-bottom: 2px solid rgb(131, 86, 50);
+  }
+  nav .hamburger {
+    display: block;
+  }
+}
 .mainPage {
   display: grid;
   grid-template-columns: 50% 50%;

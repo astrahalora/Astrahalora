@@ -124,12 +124,17 @@ nav ul li a:hover {
     top: 60px;
     left: 0;
     width: 100%;
-    padding-right: 0;
   }
   nav ul li {
+    padding: 0;
     border-top: 2px solid rgba(131, 80, 50, 0.5);
     text-align: center;
+    width: 100vw;
+  }
+  nav ul li a {
+    display: block;
     padding: 0.5em;
+    width: 100vw;
   }
   nav ul li:last-of-type {
     border-bottom: 2px solid rgba(131, 80, 50, 0.5);

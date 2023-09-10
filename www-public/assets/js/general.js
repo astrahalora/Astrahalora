@@ -1,6 +1,6 @@
 const navElement = document.querySelector(".main-nav");
 const hamburger = document.querySelector(".hamburger");
-let isNavVisible = true;
+let isNavVisible = false;
 
 function updateDisplay() {
     if (window.innerWidth > 670) {
@@ -11,6 +11,8 @@ function updateDisplay() {
         isNavVisible = false;
     };
 };
+
+updateDisplay();
 
 hamburger.addEventListener("click", function () {
     if (isNavVisible) {
@@ -33,7 +35,5 @@ if (window.innerWidth <= 670) {
 };
 
 window.addEventListener("resize", updateDisplay);
-
-updateDisplay();
 
 

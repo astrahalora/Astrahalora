@@ -14,7 +14,7 @@ html, body {
     width: 100%;
     height: 100%;
     background: rgb(0,40,127);
-    background-image: url(/www-public/assets/images/aquarium.jpg);
+    background-image: url(/www-public/assets/images/aquarium.webp);
     background-size: cover;
     background-position: center;
     position: relative;

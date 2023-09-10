@@ -47,7 +47,7 @@ textarea {
 
 html {
   background-color: rgb(71, 43, 20);
-  background-image: url(/www-public/assets/images/waters.jpg);
+  background-image: url(/www-public/assets/images/waters.webp);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -256,14 +256,6 @@ nav ul li a:hover {
 
 h2 {
   margin-left: 2.5em;
-}
-
-.social_media {
-  margin: 1em 0 0 3em;
-}
-.social_media img {
-  width: 6em;
-  margin-right: 0.5em;
 }
 
 section {

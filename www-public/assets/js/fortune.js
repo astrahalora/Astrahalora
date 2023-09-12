@@ -1,4 +1,5 @@
 const fishElement = document.querySelector(".fish");
+const returnBtn = document.querySelector("#resurface")
 
 const randomFortune = () => {
     const fortunes = [

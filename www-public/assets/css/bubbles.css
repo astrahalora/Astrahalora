@@ -41,11 +41,12 @@ html, body {
     border-radius: 10px;
 }
 
-#resurface a:hover {
+#resurface:hover {
+    cursor: pointer;
     color: rgb(71, 43, 20);
 }
 
-#resurface a {
+#resurface {
     text-decoration: none;
     padding: 1em;
     font-size: 110%;

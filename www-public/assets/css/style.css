@@ -163,7 +163,7 @@ nav ul li a:hover {
 .mainPage div {
   margin: 0 auto;
 }
-.mainPage div:first-child {
+.mainPage .intro-div {
   padding: 8em 1em 0 0;
   font-size: 130%;
 }
@@ -222,68 +222,69 @@ nav ul li a:hover {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    height: 100vh;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0;
+  }
+  .ship-div img {
+    padding: 4em 2em 0;
+    width: 80%;
+  }
+  #island {
+    width: 20%;
   }
 }
-@media screen and (max-width: 770px) {
-  .mainPage img {
-    width: 50%;
-  }
+@media screen and (max-width: 850px) {
   #island {
     display: none;
   }
 }
-@media screen and (max-width: 750px) {
-  .mainPage img {
-    display: none;
-  }
-}
-@media screen and (max-height: 610px) {
-  .mainPage {
-    padding-top: 4em;
-  }
-}
-@media screen and (max-width: 524px) {
-  .mainPage div:first-of-type {
+@media screen and (max-width: 770px) {
+  .mainPage .intro-div {
+    padding: 0 2em;
     text-align: center;
-    line-height: 2em;
-    font-size: 120%;
   }
-  .mainPage div:first-of-type #myWork {
+  #myWork {
     margin: 0 0.25em 0 0;
   }
-  .mainPage div:first-of-type #myStory {
+  #myStory {
     margin-left: 0.25em;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 750px) {
+  .mainPage #island {
+    display: none;
+  }
+}
+@media screen and (max-width: 540px) {
   .mainPage div:first-of-type {
-    padding: 8em 1em 0 0;
+    line-height: 2em;
+    font-size: 120%;
   }
 }
 @media screen and (max-width: 395px) and (max-height: 670px) {
   .mainPage div:first-of-type {
     font-size: 110%;
-    padding: 4.5em 1em 0 0;
+  }
+  .mainPage .ship-div {
+    display: none;
+  }
+}
+@media screen and (max-width: 550px) and (max-height: 730px) {
+  .mainPage .ship-div {
+    display: none;
   }
 }
 @media screen and (max-width: 290px) {
-  #island {
-    width: 50%;
-  }
-  .mainPage {
-    padding-top: 8em;
-  }
   .mainPage div:first-of-type {
-    padding-top: 8em;
     font-size: 90%;
   }
 }
-@media screen and (max-width: 400) and (max-height: 860px) {
+@media screen and (max-height: 600px) {
   .mainPage {
-    padding-top: 14em;
-  }
-  .mainPage div:first-of-type {
-    font-size: 110%;
+    padding: 3em 1em;
   }
 }
 .footer {

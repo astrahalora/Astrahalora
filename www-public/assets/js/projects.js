@@ -1,8 +1,7 @@
 const projectList = [
   {
-    title: "Image Placeholder",
-    description: "This project does this and this",
-    imgUrl: "/www-public/assets/images/placeholder2.jpg",
+    title: "DoBeDragon",
+    imgUrl: "/www-public/assets/images/dobedrag.jpg",
     preview: "somepage",
     code: "someurl",
     date: "2023-06-20",
@@ -11,7 +10,6 @@ const projectList = [
   },
   {
     title: "Image Placeholder",
-    description: "This project does this and this",
     imgUrl: "/www-public/assets/images/placeholder2.jpg",
     preview: "somepage",
     code: "someurl",
@@ -21,7 +19,6 @@ const projectList = [
   },
   {
     title: "Image Placeholder",
-    description: "This project does this and this",
     imgUrl: "/www-public/assets/images/placeholder2.jpg",
     preview: "somepage",
     code: "someurl",
@@ -31,7 +28,6 @@ const projectList = [
   },
   {
     title: "Image Placeholder",
-    description: "This project does this and this",
     imgUrl: "/www-public/assets/images/placeholder2.jpg",
     preview: "somepage",
     code: "someurl",
@@ -51,10 +47,9 @@ const populateProjects = (list) => {
     projectsElement.insertAdjacentHTML(
       "beforeend",
       `<figure>
-        <img src="${project.imgUrl}" alt="${project.title}">
+        <img src="${project.imgUrl}" class="project-img" alt="${project.title}">
         <figcaption>
           <h3>${project.title}</h3>
-          <p class="descrip">${project.description}</p>
           <div class="deco">
             <p>${project.specs.join(", ")}</p>
             <a href="${project.preview}">Preview</a>
@@ -63,6 +58,28 @@ const populateProjects = (list) => {
         </figcaption>
       </figure>`
     );
+  });
+};
+
+function changeImgSrcOnHover() {
+  const figures = Array.from(document.querySelectorAll("figure"));
+  const images = Array.from(document.querySelectorAll(".project-img"));
+  const projectTitles = figures.map((figure) =>
+    figure.querySelector("h3").innerText
+  );
+
+  figures.forEach((figure, i) => {
+    figure.addEventListener("mouseover", () => {
+      images[i].src = "/www-public/assets/images/placeholder2.jpg";
+    });
+
+    figure.addEventListener("mouseout", () => {
+      const projectTitle = projectTitles[i];
+      const project = projectList.find((p) => p.title === projectTitle);
+      if (project) {
+        images[i].src = project.imgUrl;
+      }
+    });
   });
 };
 
@@ -105,6 +122,7 @@ highlightedBtn.addEventListener("click", function () {
   removeAllChildren();
   filterHighlightedProjects();
   populateProjects(projectsToDisplay);
+  changeImgSrcOnHover();
 });
 
 selectElement.addEventListener("change", function () {
@@ -118,4 +136,7 @@ selectElement.addEventListener("change", function () {
     );
     populateProjects(projectsToDisplay);
   }
+  changeImgSrcOnHover();
 });
+
+changeImgSrcOnHover();

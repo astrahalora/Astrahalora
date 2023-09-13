@@ -405,11 +405,18 @@ section .sorting #highlighted, section .sorting select {
   font-size: large;
   margin-bottom: 0.5em;
   border-radius: 0.5em;
-}
-section .sorting #highlighted, section .sorting select {
   margin-left: 0.5em;
 }
+section .sorting #highlighted {
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+section .sorting #highlighted:hover {
+  background-color: rgb(163, 114, 74);
+}
 section .sorting select {
+  cursor: pointer;
+  color: rgb(112, 69, 34);
   text-align: center;
 }
 section .projects {
@@ -438,7 +445,7 @@ section .projects figure {
 }
 section .projects figure img {
   max-width: 350px;
-  opacity: 0.7;
+  opacity: 0.9;
   -webkit-transform: translate3d(0, -20px, 0) scale(1.12);
           transform: translate3d(0, -20px, 0) scale(1.12);
   -webkit-transition: all 0.5s;
@@ -455,16 +462,10 @@ section .projects figure figcaption {
 section .projects figure figcaption h3 {
   font-weight: bold;
   font-size: 1.2em;
-  text-transform: uppercase;
-  background-color: rgba(255, 215, 93, 0.5);
+  background-color: rgba(255, 215, 93, 0.6);
   border-radius: 10px;
   display: inline-block;
   padding: 0.5em 0.7em;
-}
-section .projects figure figcaption .descrip {
-  position: absolute;
-  margin-top: 0.5em;
-  margin-left: 2em;
 }
 section .projects figure figcaption .deco {
   opacity: 0;
@@ -479,14 +480,14 @@ section .projects figure figcaption .deco a {
   text-transform: uppercase;
   text-decoration: none;
   border: 2px solid rgb(54, 39, 24);
-  background-color: rgba(138, 206, 191, 0.3);
+  background-color: rgba(138, 206, 191, 0.6);
   padding: 0.5em;
   font-weight: bold;
   color: black;
   border-radius: 10px;
 }
 section .projects figure figcaption .deco a:last-child {
-  background-color: rgba(134, 81, 37, 0.3);
+  background-color: rgba(134, 81, 37, 0.6);
 }
 section .projects figure:first-child {
   margin-left: 0;
@@ -497,9 +498,6 @@ section .projects figure:hover {
 }
 section .projects figure:hover .deco {
   opacity: 1;
-}
-section .projects figure:hover .descrip {
-  opacity: 0;
 }
 
 @media screen and (max-width: 1300px) {

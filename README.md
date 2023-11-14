@@ -1,5 +1,7 @@
 ## Greetings and salutations 😸
 
+![fireworks display](https://images2.imgbox.com/f2/fe/crZU9vDP_o.jpg)
+
 <!--
 **astrahalora/Astrahalora** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

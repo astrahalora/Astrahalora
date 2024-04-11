@@ -39,7 +39,6 @@ let timestamp = Math.floor(date.getTime() / 1000);
 console.log(timestamp) -->
 
 [![A La Tarantazza React Restaurant App](https://ytcards.demolab.com/?id=dqWILxE249U&title=A+La+Tarantazza+React+Restaurant+App&lang=en&timestamp=1712696400&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5&duration=587 "A La Tarantazza React Restaurant App")](https://youtu.be/dqWILxE249U?si=SDA9WtBT_5ToJMB3)
-
 [![Growthgenier React Project Management App](https://ytcards.demolab.com/?id=nulTF8s-naw&title=Growthgenier+React+Project+Management+App&lang=en&timestamp=1712782800&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5&duration=587 "Growthgenier React Project Management App")](https://youtu.be/nulTF8s-naw?si=-p6ABp-BhdHQ2TRf)
 
 

@@ -5,7 +5,7 @@
 🎓Studied Full-Stack Development independently and at Codecool, Software Development Academy & others<br>
 🎓Have a Bachelor's in Psychology and Studied Master Level Health Psychology - Research and Behavioral Optimization<br>
 🖋 Passionate Writer with over 12 years experience in creative collaborative writing (online communities)<br>
-🎨 Lifelong Hobbyist Visual Artist and Designer in various mediums 
+🎨 Lifelong Hobbyist Visual Artist and Designer in various mediums<br>
 🌿 Devouring articles/media on medicine, nutrition, gaming, art, music.  
 
 ## Tech Stack & Tools

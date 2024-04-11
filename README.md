@@ -2,23 +2,18 @@
 
 ![fireworks display](https://images2.imgbox.com/f2/fe/crZU9vDP_o.jpg)
 
-🎓Studied Full-Stack Development independently and at Codecool, Software Development Academy & others
-
-🎓Have a Bachelor's in Psychology 
-
-🔍Studied Master Level Health Psychology - Research and Behavioral Optimization 
-
-🖋 Passionate Writer with over 15 years experience in creative collaborative writing (online communities)
-
-🎨 Lifelong Hobbyist Visual Artist and Designer in various mediums<br>
-
-🌿 Devouring articles/media on:
+🎓Studied Full-Stack Development independently and at Codecool, Software Development Academy & others <br>
+🎓Have a Bachelor's in Psychology <br>
+🔍Studied Master Level Health Psychology - Research and Behavioral Optimization <br>
+🖋 Passionate Writer with over 15 years experience in creative collaborative writing (online communities) <br>
+🎨 Lifelong Hobbyist Visual Artist and Designer in various mediums <br>
+🌿 Devouring articles/media on: 
 - medicine 
 - nutrition 
 - gaming
 - art
 - movies
-- music.
+- music
 
 ⛸ Would love to be engaged in some:
 - figure skating 

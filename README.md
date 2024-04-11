@@ -2,11 +2,18 @@
 
 ![fireworks display](https://images2.imgbox.com/f2/fe/crZU9vDP_o.jpg)
 
-🎓Studied Full-Stack Development independently and at Codecool, Software Development Academy & others <br>
-🎓Have a Bachelor's in Psychology <br>
-🔍Studied Master Level Health Psychology - Research and Behavioral Optimization <br>
-🖋 Passionate Writer with over 15 years experience in creative collaborative writing (online communities) <br>
-🎨 Lifelong Hobbyist Visual Artist and Designer in various mediums 
+- 🎓Studied Full-Stack Development independently and at Codecool, Software Development Academy & others <br>
+- 🎓Have a Bachelor's in Psychology <br>
+- 🔍Studied Master Level Health Psychology - Research and Behavioral Optimization <br>
+- 🖋 Passionate Writer with over 15 years experience in creative collaborative writing (online communities) <br>
+- 🎨 Lifelong Hobbyist Visual Artist and Designer in various mediums 
+- 🥗 Devouring articles/media on: 
+     - medicine & nutrition 
+     - gaming, art, movies & music
+- 🏓 Would love to be engaged in some:
+     - figure skating or roller blading
+     - biking, ping-pong & basketball
+     - whatever else you want to teach me! 
 
 ## Tech Stack & Tools
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) 
@@ -47,19 +54,6 @@ console.log(timestamp) -->
 [![A La Tarantazza React Restaurant App](https://ytcards.demolab.com/?id=dqWILxE249U&title=A+La+Tarantazza+React+Restaurant+App&lang=en&timestamp=1712696400&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5&duration=587 "A La Tarantazza React Restaurant App")](https://youtu.be/dqWILxE249U?si=SDA9WtBT_5ToJMB3)
 [![Growthgenier React Project Management App](https://ytcards.demolab.com/?id=nulTF8s-naw&title=Growthgenier+React+Project+Management+App&lang=en&timestamp=1712782800&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5&duration=340 "Growthgenier React Project Management App")](https://youtu.be/nulTF8s-naw?si=-p6ABp-BhdHQ2TRf)
 
-- 🥗 Devouring articles/media on: 
-     - medicine 
-     - nutrition 
-     - gaming
-     - art
-     - movies
-     - music
-- 🏓 Would love to be engaged in some:
-     - figure skating 
-     - roller blading
-     - biking
-     - ping-pong
-     - basketball
-     - whatever else you want to teach me! 
+
 
 

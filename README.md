@@ -6,6 +6,7 @@
 🎓Have a Bachelor's in Psychology and Studied Master Level Health Psychology - Research and Behavioral Optimization<br>
 🖋 Passionate Writer with over 12 years experience in creative collaborative writing (online communities)<br>
 🎨 Lifelong Hobbyist Visual Artist and Designer in various mediums 
+🌿 Devouring articles/media on medicine, nutrition, gaming, art, music.  
 
 ## Tech Stack & Tools
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) 

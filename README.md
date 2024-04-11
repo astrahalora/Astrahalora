@@ -6,7 +6,8 @@
 🎓Have a Bachelor's in Psychology <br>
 🔍Studied Master Level Health Psychology - Research and Behavioral Optimization <br>
 🖋 Passionate Writer with over 15 years experience in creative collaborative writing (online communities) <br>
-🎨 Lifelong Hobbyist Visual Artist and Designer in various mediums <br>
+🎨 Lifelong Hobbyist Visual Artist and Designer in various mediums 
+
 🌿 Devouring articles/media on: 
 - medicine 
 - nutrition 

@@ -8,7 +8,7 @@
 🖋 Passionate Writer with over 15 years experience in creative collaborative writing (online communities) <br>
 🎨 Lifelong Hobbyist Visual Artist and Designer in various mediums 
 
-🌿 Devouring articles/media on: 
+- 🌿 Devouring articles/media on: 
 - medicine 
 - nutrition 
 - gaming
@@ -16,7 +16,7 @@
 - movies
 - music
 
-⛸ Would love to be engaged in some:
+- ⛸ Would love to be engaged in some:
 - figure skating 
 - roller blading
 - biking

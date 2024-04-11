@@ -48,18 +48,18 @@ console.log(timestamp) -->
 [![Growthgenier React Project Management App](https://ytcards.demolab.com/?id=nulTF8s-naw&title=Growthgenier+React+Project+Management+App&lang=en&timestamp=1712782800&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5&duration=340 "Growthgenier React Project Management App")](https://youtu.be/nulTF8s-naw?si=-p6ABp-BhdHQ2TRf)
 
 - 🥗 Devouring articles/media on: 
- - medicine 
- - nutrition 
- - gaming
- - art
- - movies
- - music
+     - medicine 
+     - nutrition 
+     - gaming
+     - art
+     - movies
+     - music
 - 🏓 Would love to be engaged in some:
- - figure skating 
- - roller blading
- - biking
- - ping-pong
- - basketball
- - whatever else you want to teach me! 
+     - figure skating 
+     - roller blading
+     - biking
+     - ping-pong
+     - basketball
+     - whatever else you want to teach me! 
 
 

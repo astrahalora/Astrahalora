@@ -8,21 +8,23 @@
 🖋 Passionate Writer with over 15 years experience in creative collaborative writing (online communities) <br>
 🎨 Lifelong Hobbyist Visual Artist and Designer in various mediums 
 
-- 🌿 Devouring articles/media on: 
-- medicine 
-- nutrition 
-- gaming
-- art
-- movies
-- music
+> ### 🥗 Devouring articles/media on: 
+>
+> medicine 
+> nutrition 
+> gaming
+> art
+> movies
+> music
 
-- ⛸ Would love to be engaged in some:
-- figure skating 
-- roller blading
-- biking
-- ping-pong
-- basketball
-- whatever else you want to teach me! 
+> ### 🏓 Would love to be engaged in some:
+>
+> figure skating 
+> roller blading
+> biking
+> ping-pong
+> basketball
+> whatever else you want to teach me! 
 
 ## Tech Stack & Tools
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) 

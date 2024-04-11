@@ -30,4 +30,13 @@
 ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) 
 ![ChatGPT](https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
 
+## Featured Project Demos
+<!-- Get timestamp code:
+let date_string = "10 Apr 2024";
+let date = new Date(date_string);
+let timestamp = Math.floor(date.getTime() / 1000);
+console.log(timestamp) -->
+
+[![A La Tarantazza React Restaurant App](https://ytcards.demolab.com/?id=dqWILxE249U&title=A+La+Tarantazza+React+Restaurant+App&lang=en&timestamp=1712696400&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5&duration=587 "A La Tarantazza React Restaurant App")](https://youtu.be/dqWILxE249U?si=SDA9WtBT_5ToJMB3)
+
 

@@ -3,7 +3,7 @@
 ![fireworks display](https://images2.imgbox.com/f2/fe/crZU9vDP_o.jpg)
 
 🎓Studied Full-Stack Development independently and at Codecool, Software Development Academy & others<br>
-🎓Have a Bachelor's in Psychology and Studied Master Level Health Psychology - Research and Behavioral Optimization<br>
+🎓Have a Bachelor's in Psychology and Studied Master Level Health Psychology - Research and Behavioral Optimization at the University of Bucharest<br>
 🖋 Passionate Writer with over 15 years experience in creative collaborative writing (online communities)<br>
 🎨 Lifelong Hobbyist Visual Artist and Designer in various mediums<br>
 🌿 Devouring articles/media on medicine, nutrition, gaming, art, music.<br>

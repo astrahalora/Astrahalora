@@ -8,7 +8,7 @@
 - Passionate Writer with over 15 years experience in creative collaborative writing (online communities) <br>
 - Lifelong Hobbyist Visual Artist and Designer in various mediums 
 - Devouring articles/media on: 
-  - medicine & nutrition 
+  - medicine, nutrition & cooking 
   - gaming, art, movies & music
 - Would love to be engaged in some:
   - figure skating or roller blading

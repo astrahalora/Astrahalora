@@ -2,18 +2,7 @@
 
 ![fireworks display](https://images2.imgbox.com/f2/fe/crZU9vDP_o.jpg)
 
-- Studied Full-Stack Development independently and at Codecool, Software Development Academy & others <br>
-- Have a Bachelor's in Psychology <br>
-- Studied Master Level Health Psychology - Research and Behavioral Optimization <br>
-- Passionate Writer with over 15 years experience in creative collaborative writing (online communities) <br>
-- Lifelong Hobbyist Visual Artist and Designer in various mediums 
-- Devouring articles/media on: 
-  - medicine, nutrition & cooking 
-  - gaming, art, movies & music
-- Would love to be engaged in some:
-  - figure skating or roller blading
-  - biking, ping-pong & basketball
-  - whatever else you want to teach me! 
+Fullstack developer
 
 ## Tech Stack & Tools
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) 

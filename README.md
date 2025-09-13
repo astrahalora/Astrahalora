@@ -2,7 +2,8 @@
 
 ![fireworks display](https://images2.imgbox.com/f2/fe/crZU9vDP_o.jpg)
 
-Fullstack developer
+"Though none go with me, still, I will follow. No turning back."
+What we do in life, echoes in eternity.
 
 ## Tech Stack & Tools
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) 

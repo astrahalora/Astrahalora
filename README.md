@@ -2,7 +2,7 @@
 
 ![fireworks display](https://images2.imgbox.com/f2/fe/crZU9vDP_o.jpg)
 
-"Though none go with me, still, I will follow. No turning back."
+"Though none go with me, still, I will follow. No turning back."<br>
 What we do in life, echoes in eternity.
 
 ## Tech Stack & Tools
